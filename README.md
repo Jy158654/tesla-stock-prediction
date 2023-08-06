@@ -1,7 +1,9 @@
 # tesla-stock-prediction 🗠
 
 ## 💡 Overview
-This project is set out to explore the relationship between Tesla's historical stock data and Elon Musk's impactful tweets. A highlight of this project is the use of stacking model ```XGBoost``` that combines the predictions from the time series forecasting model ```ARIMA``` and the ```large language model (LLM)``` for sentiment analysis on Musk's tweets. This ensemble model aims to make better predictions and achieve better performance than any single contributing model by reducing the spread or dispersion of the predictions and model performance.
+This project is set out to explore the relationship between Tesla's historical stock data and Elon Musk's impactful tweets. 
+
+A highlight of this project is the use of stacking model ```XGBoost``` that combines the predictions from the time series forecasting model ```ARIMA``` and the ```large language model (LLM)``` for sentiment analysis on Musk's tweets. This ensemble model aims to make better predictions and achieve better performance than any single contributing model by reducing the spread or dispersion of the predictions and model performance.
 
 ## 🗂️ Dataset
 For time series forecasting, I have used ```Beautiful Soup``` and ```Selenium``` to scrape tesla's historical stock data from the NASDAQ website, due to its data availability from 2013 to 2023.
